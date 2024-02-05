@@ -1,0 +1,18 @@
+*{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+h2{
+    font-size: 30px;
+}
+.image {
+    padding: 20px;
+    position: relative;
+    margin:  0px 40px;
+    border-radius: 20px
+}
+hr {
+    width: 60%;
+    position: relative;
+}
