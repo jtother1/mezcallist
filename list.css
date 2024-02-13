@@ -3,16 +3,54 @@
     background-color: black;
     color: white;
 }
-h2{
+h1{
     font-size: 30px;
 }
+h2{
+    font-size: 20px;
+}
 .image {
-    padding: 20px;
+    width: 80%;
+    padding: 30px 30px;
     position: relative;
     margin:  0px 40px;
     border-radius: 20px
 }
 hr {
-    width: 60%;
+    width: 78%;
     position: relative;
+}
+button.hamburger-button{
+    float: right;
+}
+.hamburger-button {
+    background-color: #020202;
+    color: rgb(251, 249, 249);
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+ }
+ .nav-links {
+    display: none;
+    background-color: #333;
+    color: white;
+ }
+ .nav-links a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+ }
+ .nav-links a:hover {
+    background-color: #111;
+ }
+ .gf {
+    width: 2%;
+    position: relative;
+ }
+
+@media (max-width:600px){
+    body {
+        font-size: 14px;
+    }
 }
