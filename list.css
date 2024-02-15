@@ -5,18 +5,20 @@
     
 }
 p{
-    margin: 0 40px;
+    font-size: 16px;
 }
 h1{
-    font-size: 20px;
+    font-size: 28px;
+    font-style: bold;
 }
 h2{
-    font-size: 20px;
+    font-size: 23px;
     margin: 0 40px;
+    font-style: bold;
 }
 .image {
     width: 80%;
-    padding: 5px 5px ;
+    padding: 20px 0px 20px;
     position: relative;
     margin:  0px 40px;
     border-radius: 20px
@@ -24,6 +26,10 @@ h2{
 hr {
     width: 80%;
     position: relative;
+}
+section {
+    margin-bottom: 5em;
+    margin-top: 5em;
 }
 button.hamburger-button{
     float: left;
