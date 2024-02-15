@@ -2,31 +2,35 @@
     text-align: center;
     background-color: black;
     color: white;
+    
+}
+p{
+    margin: 0 40px;
 }
 h1{
-    font-size: 30px;
+    font-size: 20px;
 }
 h2{
     font-size: 20px;
+    margin: 0 40px;
 }
 .image {
     width: 80%;
-    padding: 30px 30px;
+    padding: 5px 5px ;
     position: relative;
     margin:  0px 40px;
     border-radius: 20px
 }
 hr {
-    width: 78%;
+    width: 80%;
     position: relative;
 }
 button.hamburger-button{
-    float: right;
+    float: left;
 }
 .hamburger-button {
     background-color: #020202;
     color: rgb(251, 249, 249);
-    padding: 15px;
     font-size: 24px;
     cursor: pointer;
  }
